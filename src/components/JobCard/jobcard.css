@@ -1,0 +1,159 @@
+.jobcard__container {
+    border: 2px solid var(--text-color);
+    background-color: var(--container-color);
+    border-radius: 0.75rem;
+    padding: 1rem;
+}
+
+.jobcard__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobcard__header-icon {
+    font-size: 1.75rem;
+    transition: .3s;
+}
+
+.jobcard__header-icon:hover {
+    font-size: 2rem;
+    color: indianred;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.jobcard__status {
+    display: flex;
+    justify-content: center;
+}
+
+.jobcard__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.jobcard__footer:hover {
+    color: var(--title-color-dark);
+    cursor: pointer;
+}
+
+.jobcard__footer-icon-up:hover {
+    transform: translate(0,-1.5px);
+    transition: .5s;
+}
+
+.jobcard__footer-icon-down:hover {
+    transform: translate(0,1.5px);
+    transition: .5s;
+}
+
+.jobcard__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.jobcard__form-label {
+    font-weight: var(--font-semi-bold);
+}
+
+.jobcard__form-inputs {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    border: 2px solid var(--text-color);
+    background-color: var(--container-color);
+    color: var(--text-color);
+    font-size: var(--normal-font-size);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    z-index: 1;
+}
+
+.jobcard__form-length {
+    align-self: flex-end;
+}
+
+.jobcard__form-select {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1rem;
+    border: 2px solid var(--text-color);
+    background-color: var(--container-color);
+    color: var(--text-color);
+    font-size: var(--normal-font-size);
+    text-align: center;
+    border-radius: 0.75rem;
+    z-index: 1;
+}
+
+.jobcard__form-button {
+    margin-top: 1rem;
+}
+
+/*===========Breakpoints===========*/
+/*For small devices*/
+@media screen and (max-width: 350px) {
+    .jobcard__form-inputs {
+        height: 7px;
+        max-height: 2.5rem;
+        font-size: var(--small-font-size);
+    }
+
+    .jobcard__form-button {
+        font-size: 1rem;
+        max-height: 2.5rem;
+        align-self: center;
+    }
+}
+
+.font-red {
+    color: indianred;
+}
+
+.font-green {
+    color: green;
+}
+
+.font-yellow {
+    color: goldenrod;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

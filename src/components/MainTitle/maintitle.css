@@ -1,0 +1,8 @@
+.maintitle__container {
+    display: flex;
+    justify-content: center;
+}
+
+.maintitle__title {
+    font-size: var(--big-font-size);
+}

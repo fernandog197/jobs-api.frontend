@@ -1,0 +1,151 @@
+.jobsform__container {
+    width: 100%;
+    border: 2px solid var(--text-color);
+    background-color: var(--container-color);
+    border-radius: 0.75rem;
+}
+
+.jobsform__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.jobsform__menu:hover {
+    color: var(--title-color-dark);
+    cursor: pointer;
+}
+
+.jobsform__menu-title {
+    cursor: default;
+}
+
+.jobsform__menu-icon {
+    font-size: 1.5rem;
+}
+
+.jobsform__form {
+    margin-left: 12.5%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.jobsform__form-label {
+    font-weight: var(--font-semi-bold);
+}
+
+.jobsform__form-inputs {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    margin-top: 0.25rem;
+    border: 2px solid var(--text-color);
+    background-color: var(--container-color);
+    color: var(--text-color);
+    font-size: var(--normal-font-size);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    z-index: 1;
+}
+
+.jobsform__form-length {
+    margin-bottom: 1rem;
+    align-self: flex-end;
+}
+
+.jobsform__form-select {
+    width: 100%;
+    height: 50px;
+    margin-top: .25rem;
+    margin-bottom: 1rem;
+    border: 2px solid var(--text-color);
+    background-color: var(--container-color);
+    color: var(--text-color);
+    font-size: var(--normal-font-size);
+    text-align: center;
+    border-radius: 0.75rem;
+    z-index: 1;
+}
+
+.jobsform__form-button {
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.font-red {
+    color: indianred;
+}
+
+.jello-vertical {
+	-webkit-animation: jello-vertical 2s cubic-bezier(0.445, 0.050, 0.550, 0.950) infinite both;
+	        animation: jello-vertical 2s cubic-bezier(0.445, 0.050, 0.550, 0.950) infinite both;
+}
+
+ @-webkit-keyframes jello-vertical {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(0.85, 1.15, 1);
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-vertical {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(0.85, 1.15, 1);
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  

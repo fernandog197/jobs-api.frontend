@@ -1,0 +1,59 @@
+.about__container a {
+    color: var(--title-color-dark);
+}
+
+.about__list li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.about__repositories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about__repositories-repository {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 8px;
+    font-size: var(--normal-font-size);
+}
+
+.about__repositories-repository:hover {
+    color: var(--title-color-dark);
+    cursor: pointer;
+}
+
+.about__repositories-repository p:hover {
+    text-decoration: underline;
+}
+
+.about__contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.about__contact-link {
+    text-decoration: none;
+    color: var(--title-color);
+}
+
+.about__contact-icon {
+    font-size: 2rem;
+    transition: .3s;
+}
+
+.about__contact-icon:hover {
+    scale: 108%;
+    color: var(--title-color-dark);
+    transition: .8s;
+}

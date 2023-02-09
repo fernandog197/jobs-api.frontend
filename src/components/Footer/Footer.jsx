@@ -22,7 +22,7 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#portfolio" className="footer__link">Portfolio</a>
+                        <a href="https://miguelgarcia-portfolio.netlify.app/" target='_blank' className="footer__link">Portfolio</a>
                     </li>
                 </ul>
 

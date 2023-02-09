@@ -67,11 +67,11 @@ const About = () => {
             <p>You can access the project repositories by following the links below:</p><br /><br />
             <div className='about__repositories'>
                 <div className='about__repositories-repository'>
-                    <p>jobs-api.backend</p>
+                    <a href="https://github.com/fernandog197/jobs-api.backend" target='_blank'><p>jobs-api.backend</p></a>
                     <BsGithub size='1.5rem' />
                 </div>
                 <div className='about__repositories-repository'>
-                    <p>jobs-api.frontend</p>
+                    <a href="https://github.com/fernandog197/jobs-api.frontend" target='_blank'><p>jobs-api.frontend</p></a>
                     <BsGithub size='1.5rem' />
                 </div>
             </div><br /><br />
@@ -85,7 +85,7 @@ const About = () => {
             <br />
             <br />
             <div className='about__contact'>
-                <a href="" className='about__contact-link'>
+                <a href="https://miguelgarcia-portfolio.netlify.app/" target='_blank' className='about__contact-link'>
                     <BsBriefcaseFill className='about__contact-icon' />
                 </a>
                 <a href="https://github.com/fernandog197" target='_blank' className='about__contact-link'>

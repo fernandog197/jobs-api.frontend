@@ -25,7 +25,7 @@ const Home = () => {
         }
         setTimeout(() => {
             getJobs()
-        }, 150)
+        }, 500)
     }, [update])
 
     return (

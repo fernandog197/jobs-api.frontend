@@ -17,7 +17,7 @@ const About = () => {
     return (
         <div className='about__container container section'>
             <h1>About</h1>
-            <p>This project belongs to the portfolio of <strong>Miguel Garcia</strong>. You can visit it clicking <a href="" target='_blank'>here</a>.</p>
+            <p>This project belongs to the portfolio of <strong>Miguel Garcia</strong>. You can visit it clicking <a href="https://miguelgarcia-portfolio-miguedev.vercel.app/" target='_blank'>here</a>.</p>
             <br />
             <h2>About this project</h2>
             <p>
@@ -85,7 +85,7 @@ const About = () => {
             <br />
             <br />
             <div className='about__contact'>
-                <a href="https://miguelgarcia-portfolio.netlify.app/" target='_blank' className='about__contact-link'>
+                <a href="https://miguelgarcia-portfolio-miguedev.vercel.app/" target='_blank' className='about__contact-link'>
                     <BsBriefcaseFill className='about__contact-icon' />
                 </a>
                 <a href="https://github.com/fernandog197" target='_blank' className='about__contact-link'>

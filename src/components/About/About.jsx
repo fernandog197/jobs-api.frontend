@@ -91,7 +91,7 @@ const About = () => {
                 <a href="https://github.com/fernandog197" target='_blank' className='about__contact-link'>
                     <BsGithub className='about__contact-icon' />
                 </a>
-                <a href="https://www.linkedin.com/in/miguel-fernando-garcia-1b1670186/" target='_blank' className='about__contact-link'>
+                <a href="https://www.linkedin.com/in/miguelgarcia-dev/" target='_blank' className='about__contact-link'>
                     <BsLinkedin className='about__contact-icon' />
                 </a>
                 <a href="https://twitter.com/MiguelF33016837" target='_blank' className='about__contact-link'>
